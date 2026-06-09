@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cambrio English Center</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700&amp;family=Literata:opsz,wght@7..72,600;7..72,700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-high": "#ebe8e3",
+                        "outline": "#70787a",
+                        "on-tertiary-container": "#ff836c",
+                        "background": "#fdf9f4",
+                        "tertiary-fixed": "#ffdad3",
+                        "secondary": "#7f5616",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-fixed": "#001f24",
+                        "inverse-primary": "#9fcfd8",
+                        "on-tertiary-fixed-variant": "#822617",
+                        "on-tertiary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "surface-container-low": "#f7f3ee",
+                        "on-primary-container": "#80afb8",
+                        "primary-fixed-dim": "#9fcfd8",
+                        "inverse-on-surface": "#f4f0eb",
+                        "on-primary-fixed-variant": "#1b4d55",
+                        "on-tertiary-fixed": "#3f0300",
+                        "on-primary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "on-secondary-container": "#78500f",
+                        "error-container": "#ffdad6",
+                        "on-secondary-fixed-variant": "#633f00",
+                        "on-surface": "#1c1c19",
+                        "primary-fixed": "#baebf5",
+                        "primary-container": "#0d434b",
+                        "tertiary-fixed-dim": "#ffb4a6",
+                        "tertiary": "#540600",
+                        "secondary-fixed-dim": "#f4bd73",
+                        "surface-container": "#f1ede8",
+                        "surface": "#fdf9f4",
+                        "surface-tint": "#36656e",
+                        "surface-dim": "#ddd9d5",
+                        "secondary-fixed": "#ffddb5",
+                        "outline-variant": "#c0c8ca",
+                        "inverse-surface": "#31302d",
+                        "tertiary-container": "#741c0e",
+                        "secondary-container": "#fdc57b",
+                        "on-secondary-fixed": "#2a1800",
+                        "surface-variant": "#e6e2dd",
+                        "on-error": "#ffffff",
+                        "on-background": "#1c1c19",
+                        "on-secondary": "#ffffff",
+                        "surface-container-highest": "#e6e2dd",
+                        "surface-bright": "#fdf9f4",
+                        "primary": "#002c32",
+                        "on-surface-variant": "#40484a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "container-max": "1200px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "48px",
+                        "base": "8px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Hanken Grotesk"],
+                        "headline-md": ["Literata"],
+                        "display-lg": ["Literata"],
+                        "label-caps": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "headline-sm": ["Literata"],
+                        "display-lg-mobile": ["Literata"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-sm": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "display-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { background-color: theme('colors.background'); color: theme('colors.on-background'); }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    </style>
+</head>
+<body class="antialiased selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-margin-desktop py-4 max-w-container-max mx-auto bg-background/80 backdrop-blur-md">
+<div class="flex items-center gap-4">
+<img alt="Cambrio English Center Logo" class="h-12 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA65ZXZ83qtJR8L2No7J7wbw3VZQ3vrn-GKBVzLbw9Mg8IfS9Co-GnNSBTAgi7_LLsFsDRDS_xqpNaMSbdNbpSPD2Nac7LKp11epqKO66EBbIE79lDnNwHLNH0egLANIUZjS9EEE0G9-a0J8ORiNpUmPH6rkkRb2sY_nPGpjsVz-kFEkMupB9Gc7QIA_EGaqaszfYVphOAIHbmsFRcMdXGLuirk78_l_MxNGgj6msxHyVGQE_y-iOcNGBCul1qTDd97J3mecbQyMj6v"/>
+</div>
+<ul class="hidden md:flex gap-gutter items-center">
+<li><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary transition-colors duration-200 uppercase" href="#team">Our Team</a></li>
+<li><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary transition-colors duration-200 uppercase" href="#philosophy">Philosophy</a></li>
+<li><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary transition-colors duration-200 uppercase" href="#location">Location</a></li>
+</ul>
+<div class="flex items-center gap-6">
+<span class="hidden md:inline-block font-label-caps text-label-caps text-primary uppercase">0384 990 819</span>
+<button class="bg-primary text-on-primary font-label-caps text-label-caps px-6 py-3 rounded-DEFAULT hover:bg-primary-container hover:text-on-primary-container transition-colors duration-200 uppercase">Contact Us</button>
+</div>
+</nav>
+<main class="pt-24 pb-12">
+<!-- Hero Section -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-12 md:py-24 grid md:grid-cols-2 gap-gutter items-center">
+<div class="flex flex-col gap-6 pr-0 md:pr-12">
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary">
+                    Speak with <span class="text-secondary">Confidence</span>.
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                    A nurturing environment for your child to learn, communicate, and grow in the heart of Da Lat.
+                </p>
+<div class="pt-4">
+<button class="bg-secondary text-on-secondary font-label-caps text-label-caps px-8 py-4 rounded-DEFAULT hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-200 uppercase shadow-sm">
+                        Discover Our Programs
+                    </button>
+</div>
+</div>
+<div class="relative h-[400px] md:h-[600px] rounded-xl overflow-hidden border border-outline-variant shadow-sm">
+<img alt="Cambrio English Center Building" class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwMurlCiGHzXwWCuiUg5LiW91WVU1OWoGd66EI47lShATrjuBqxItlS_kwcf-0DUU8xknVkohN7Zo7ayB3pCchHfCinsY4WL2s_XE7w3u6xDI3xz2_VXroPeZ22M8PSDF2KDR93aemqt6aEqdCtVcfkz_ANHRK3abiTcR0DqqgiUquQxImQiwRn9OuBEe5rOKRKcUIqsZjaXeux5ffsJv-amaxoQ9-bgFafPCqBzNadUdW7s4QBHGB4CjJ6Cjs0Y1abmLsht-kkW6u"/>
+</div>
+</section>
+<!-- Values Section -->
+<section class="bg-surface-container-low py-24" id="philosophy">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="text-center mb-16">
+<h2 class="font-headline-md text-headline-md text-primary mb-4">Our Philosophy</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto">We believe in a holistic approach to language acquisition, focusing on practical skills and personal growth.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-gutter">
+<!-- Value Card 1 -->
+<div class="bg-surface rounded-xl p-8 border border-outline-variant text-center hover:shadow-lg transition-shadow duration-300">
+<div class="w-16 h-16 bg-primary-fixed text-on-primary-fixed rounded-full flex items-center justify-center mx-auto mb-6">
+<span class="material-symbols-outlined text-3xl">menu_book</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-4">Learn</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Immersive curriculum designed to build strong foundations in grammar, vocabulary, and comprehension.</p>
+</div>
+<!-- Value Card 2 -->
+<div class="bg-surface rounded-xl p-8 border border-outline-variant text-center hover:shadow-lg transition-shadow duration-300">
+<div class="w-16 h-16 bg-secondary-fixed text-on-secondary-fixed rounded-full flex items-center justify-center mx-auto mb-6">
+<span class="material-symbols-outlined text-3xl">forum</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-4">Communicate</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Active speaking and listening practice to ensure students can confidently express themselves in real-world scenarios.</p>
+</div>
+<!-- Value Card 3 -->
+<div class="bg-surface rounded-xl p-8 border border-outline-variant text-center hover:shadow-lg transition-shadow duration-300">
+<div class="w-16 h-16 bg-tertiary-fixed text-on-tertiary-fixed rounded-full flex items-center justify-center mx-auto mb-6">
+<span class="material-symbols-outlined text-3xl">trending_up</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-4">Grow</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Fostering critical thinking, cultural awareness, and lifelong learning habits beyond the classroom.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Banner Section -->
+<section class="w-full relative h-[400px] flex items-center justify-center overflow-hidden border-y border-outline-variant">
+<img alt="Cambrio English Center Atmosphere Banner" class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6YG_GMYU_CwcIY_4HUrqnibtDMnvAB4KoxW6N2alJu1jLNjSr_jZHhncJSsQMIC5yaGhRUs-ZArbufeg5-OoAvTePCrfJf_vGdXFupPg08boo58UN9UaE0pW5p5PofdKnWOwE186pBI9f0pcz-JoeaK4wSD7OUCQtuGpXec8XQ1-Fg0brYQRngzqRYgCTSNyeRX4zuvB7l2DHIWQmU6e0Mq0dmSrUqzOf4i6-N-iHp1EPbZ2X4VQE6qb8864mFtAtDB5nHA6SqSOF"/>
+<div class="absolute inset-0 bg-primary/20 backdrop-blur-sm"></div>
+</section>
+<!-- Team Section -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-24" id="team">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 border-b border-outline-variant pb-8">
+<div>
+<h2 class="font-headline-md text-headline-md text-primary mb-2">Our Team</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Dedicated professionals guiding your educational journey.</p>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-gutter">
+<div class="bg-surface rounded-xl overflow-hidden border border-outline-variant flex flex-col md:flex-row group">
+<div class="md:w-1/2 h-64 md:h-auto relative">
+<img alt="Cambrio Teachers Dimitrios and Semele" class="absolute inset-0 w-full h-full object-cover object-top" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxzNitsZpxFy9vSsrkWGY01zopr77DNMd0myS7mSalHEKquT71T-As-hBKAFXeceWHUGjaPtFjeI8wp6-06PEm5VgTYhLB7HG2E3-twnviFtWeH6Tj8KaPJww_W9ePeOFFd5f9Ef8hahvvby5WPzSrl4HmOfvO5DlxqkfTkYLZr9fFurQhR_XLG6GDVjans8pSpCI6KWapO5CRh197dR8jLWMrX011_LAWrMMH3k97tcZX-UavHXXIH-TKOJnFYjCnKqBLC4-u0qlP"/>
+</div>
+<div class="p-8 md:w-1/2 flex flex-col justify-center">
+<div class="mb-4">
+<span class="inline-block px-3 py-1 bg-secondary-container text-on-secondary-container font-label-caps text-label-caps rounded-full uppercase mb-2">Academic Directors</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Dimitrios &amp; Semele</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Bringing years of international teaching experience to create a supportive and rigorous academic environment.</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-low w-full py-12 px-margin-desktop flex flex-col md:flex-row justify-between items-start gap-gutter border-t border-outline-variant">
+<div class="flex flex-col gap-6 max-w-sm">
+<img alt="Cambrio English Center Logo" class="h-16 w-auto object-contain self-start" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA65ZXZ83qtJR8L2No7J7wbw3VZQ3vrn-GKBVzLbw9Mg8IfS9Co-GnNSBTAgi7_LLsFsDRDS_xqpNaMSbdNbpSPD2Nac7LKp11epqKO66EBbIE79lDnNwHLNH0egLANIUZjS9EEE0G9-a0J8ORiNpUmPH6rkkRb2sY_nPGpjsVz-kFEkMupB9Gc7QIA_EGaqaszfYVphOAIHbmsFRcMdXGLuirk78_l_MxNGgj6msxHyVGQE_y-iOcNGBCul1qTDd97J3mecbQyMj6v"/>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Empowering students to speak with confidence and achieve their goals through quality English education.
+            </p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-caps text-label-caps text-primary uppercase">Contact Us</h4>
+<ul class="flex flex-col gap-2 font-body-md text-body-md text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">call</span> 0384 990 819 (Zalo)</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">mail</span> cambrioenglish@gmail.com</li>
+</ul>
+</div>
+<div class="flex flex-col gap-4 max-w-sm">
+<h4 class="font-label-caps text-label-caps text-primary uppercase">Location</h4>
+<address class="font-body-md text-body-md text-on-surface-variant not-italic flex items-start gap-2">
+<span class="material-symbols-outlined text-sm mt-1">location_on</span>
+<span>41 Ngo Thi Sy Street,<br/>Xuan Huong Ward, Da Lat City,<br/>Lam Dong Province, Vietnam</span>
+</address>
+</div>
+<div class="flex flex-col gap-4 w-full md:w-auto mt-8 md:mt-0 pt-8 md:pt-0 border-t md:border-none border-outline-variant">
+<ul class="flex flex-col gap-2 font-label-caps text-label-caps text-on-surface-variant uppercase">
+<li><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Terms of Service</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Zalo Support</a></li>
+</ul>
+<p class="font-body-md text-body-md text-on-surface-variant mt-4 md:mt-auto">
+                © 2024 Cambrio English Center.<br/>All rights reserved.
+            </p>
+</div>
+</footer>
+</body></html>
