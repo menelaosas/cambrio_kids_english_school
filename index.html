@@ -105,7 +105,8 @@
 </head>
 <body class="antialiased selection:bg-primary-container selection:text-on-primary-container">
 <!-- TopNavBar -->
-<nav class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-margin-desktop py-4 max-w-container-max mx-auto bg-background/80 backdrop-blur-md">
+<nav class="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-md">
+<div class="max-w-container-max mx-auto flex justify-between items-center px-margin-desktop py-4">
 <div class="flex items-center gap-4">
 <img alt="Cambrio English Center Logo" class="h-12 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA65ZXZ83qtJR8L2No7J7wbw3VZQ3vrn-GKBVzLbw9Mg8IfS9Co-GnNSBTAgi7_LLsFsDRDS_xqpNaMSbdNbpSPD2Nac7LKp11epqKO66EBbIE79lDnNwHLNH0egLANIUZjS9EEE0G9-a0J8ORiNpUmPH6rkkRb2sY_nPGpjsVz-kFEkMupB9Gc7QIA_EGaqaszfYVphOAIHbmsFRcMdXGLuirk78_l_MxNGgj6msxHyVGQE_y-iOcNGBCul1qTDd97J3mecbQyMj6v"/>
 </div>
@@ -118,6 +119,7 @@
 <div class="flex items-center gap-6">
 <span class="hidden md:inline-block font-label-caps text-label-caps text-primary uppercase">0384 990 819</span>
 <button class="bg-primary text-on-primary font-label-caps text-label-caps px-6 py-3 rounded-DEFAULT hover:bg-primary-container hover:text-on-primary-container transition-colors duration-200 uppercase">Contact Us</button>
+</div>
 </div>
 </nav>
 <main class="pt-24 pb-12">
@@ -219,8 +221,10 @@
 </div>
 </section>
 <!-- Values Section -->
-<section class="py-24" id="philosophy">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<section class="relative py-24" id="philosophy">
+<div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('philosophy-bg.jpg');"></div>
+<div class="absolute inset-0 bg-background/75 backdrop-blur-sm"></div>
+<div class="relative max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
 <div class="text-center mb-16">
 <h2 class="font-headline-md text-headline-md text-primary mb-4">Our Philosophy</h2>
 <p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto">We believe in a holistic approach to language acquisition, focusing on practical skills and personal growth.</p>
